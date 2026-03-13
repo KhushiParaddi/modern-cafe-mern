@@ -1,16 +1,62 @@
-# React + Vite
+# Modern Café Website with Reservation Feature
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack café website built using the MERN stack that allows users to explore café information such as menu, gallery, and details about the café while also submitting table reservation requests through an online booking form.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend
+- React
+- JavaScript
+- CSS
 
-## React Compiler
+Backend
+- Node.js
+- Express.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Database
+- MongoDB
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Homepage with café introduction
+- Menu display
+- Image gallery
+- Table reservation form
+- Responsive user interface
+- Backend API to handle reservation requests
+- MongoDB database for storing reservation data
+
+## Project Structure
+
+frontend/  
+Contains the React frontend application
+
+backend/  
+Contains the Node.js and Express backend server
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/KhushiParaddi/modern-cafe-mern.git
+
+Install frontend dependencies
+
+cd frontend
+npm install
+npm start
+
+
+Run backend server
+
+cd backend
+npm install
+node server.js
+
+
+## Future Improvements
+
+- Admin dashboard for managing reservations
+- User authentication
+- Reservation availability system
+- Email confirmation for bookings
